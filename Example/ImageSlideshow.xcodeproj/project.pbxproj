@@ -24,6 +24,7 @@
 		D0E8A9F51D97EB94007EC517 /* UIImage+AspectFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8A9EE1D97EB94007EC517 /* UIImage+AspectFit.swift */; };
 		D0E8A9F61D97EB94007EC517 /* UIImageView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8A9EF1D97EB94007EC517 /* UIImageView+Tools.swift */; };
 		D0E8A9F71D97EB94007EC517 /* ZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8A9F01D97EB94007EC517 /* ZoomAnimatedTransitioning.swift */; };
+		F5041AD321105F1E00A6E87D /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5041AD221105F1E00A6E87D /* SwiftSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		D0E8A9EE1D97EB94007EC517 /* UIImage+AspectFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+AspectFit.swift"; path = "../../ImageSlideshow/Classes/Core/UIImage+AspectFit.swift"; sourceTree = "<group>"; };
 		D0E8A9EF1D97EB94007EC517 /* UIImageView+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Tools.swift"; path = "../../ImageSlideshow/Classes/Core/UIImageView+Tools.swift"; sourceTree = "<group>"; };
 		D0E8A9F01D97EB94007EC517 /* ZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomAnimatedTransitioning.swift; path = ../../ImageSlideshow/Classes/Core/ZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		F5041AD221105F1E00A6E87D /* SwiftSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
 		FD45C56C18E7B8EC08371B86 /* Pods-ImageSlideshow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageSlideshow_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageSlideshow_Example/Pods-ImageSlideshow_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -194,6 +196,7 @@
 				D0E8A9EE1D97EB94007EC517 /* UIImage+AspectFit.swift */,
 				D0E8A9EF1D97EB94007EC517 /* UIImageView+Tools.swift */,
 				D0E8A9F01D97EB94007EC517 /* ZoomAnimatedTransitioning.swift */,
+				F5041AD221105F1E00A6E87D /* SwiftSupport.swift */,
 				D0E8A9E41D97EB6D007EC517 /* ImageSlideshow_framework.h */,
 				D0E8A9E51D97EB6D007EC517 /* Info.plist */,
 			);
@@ -422,6 +425,7 @@
 				D0E8A9F71D97EB94007EC517 /* ZoomAnimatedTransitioning.swift in Sources */,
 				D0083DCE1EB739E700126B21 /* ActivityIndicator.swift in Sources */,
 				D0E8A9F51D97EB94007EC517 /* UIImage+AspectFit.swift in Sources */,
+				F5041AD321105F1E00A6E87D /* SwiftSupport.swift in Sources */,
 				D0E8A9F11D97EB94007EC517 /* FullScreenSlideshowViewController.swift in Sources */,
 				D0E8A9F31D97EB94007EC517 /* ImageSlideshowItem.swift in Sources */,
 			);
@@ -646,7 +650,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -674,7 +678,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zvo.ImageSlideshow-framework";
 				PRODUCT_NAME = ImageSlideshow;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
